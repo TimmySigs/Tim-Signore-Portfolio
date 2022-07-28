@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    font-weight: 300;
+    ;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+body {
+    
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+    background: rgb(255, 255, 255);
+    margin-bottom: 250px;
+    letter-spacing: 0.7px;
+    min-height: 100%;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+#home {
+    border: 3px; 
+    border: color;
+    justify-content: center;
+   
+    color: rgb(49, 43, 131);
+    margin-right: 40%;
+    
+}
