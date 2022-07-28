@@ -5,8 +5,9 @@
 }
 
 :root {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 300;
-    ;
+    
 }
 
 html {
@@ -14,34 +15,8 @@ html {
     min-height: 100%;
 }
 
-
 body {
-    
-    margin: 0;
-    font-family: 'Nunito Sans', sans-serif;
-    color: black;
-    background: rgb(255, 255, 255);
-    margin-bottom: 250px;
-    letter-spacing: 0.7px;
-    min-height: 100%;
-    line-height: 1.6;
-}
+    background-image: url(earthtone.jpg);
 
 
-
-
-
-
-
-
-
-
-#home {
-    border: 3px; 
-    border: color;
-    justify-content: center;
-   
-    color: rgb(49, 43, 131);
-    margin-right: 40%;
-    
 }
