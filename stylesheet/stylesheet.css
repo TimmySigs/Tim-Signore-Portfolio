@@ -34,7 +34,7 @@ body {
 
 }
 
-img {
+#face {
     
     margin-top: 2.6em;
     display: block;
@@ -122,3 +122,26 @@ a:link: {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+
+a#horiseon.portfolio-item {
+    margin: 14px;
+    display: flex;
+    background-image: url(http://127.0.0.1:5500/Develop/index.html); 
+  }
+  
+
+
+img {
+    display: flex;
+    margin: 14px;
+    max-width: 260px;
+    max-height: 260px;
+    padding: 2px;
+}
+
+
+  a#tower {
+    display: flex;
+    background-image: url(https://www.google.com/);
+  }
