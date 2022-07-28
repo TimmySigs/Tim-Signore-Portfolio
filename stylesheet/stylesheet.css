@@ -10,13 +10,25 @@
     
 }
 
+@media (min-width: 800px) {
+    :root {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.6;
+    }
+}
+
+
 html {
     position: relative;
     min-height: 100%;
 }
 
 body {
-    background-image: url(earthtone.jpg);
-
+    background-image: url(/assets/earthtone.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
