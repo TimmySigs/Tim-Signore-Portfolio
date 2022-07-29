@@ -57,16 +57,17 @@ section {
 }
 
 
-nav .nav-list li a{
-    float: right;
-    top: 0;
+nav .nav-list li{
+    height: 126px;
+    display: inline-block;
     background-color: rgba(216, 148, 22, 0.808);
     color: white;
-    padding: 1px;
+    padding: 1em;
+
     }
 
-a:link: {
-    color: white
+a:link {
+    color: white;
     
 }
 
@@ -124,15 +125,9 @@ a:link: {
 }
 
 
-a#horiseon.portfolio-item {
-    margin: 14px;
-    display: flex;
-    background-image: url(http://127.0.0.1:5500/Develop/index.html); 
-  }
-  
-
-
 img {
+    border: 7px solid;
+    border-color: #053F5C;
     display: flex;
     margin: 14px;
     max-width: 260px;
@@ -140,8 +135,30 @@ img {
     padding: 2px;
 }
 
+#horiseon:hover {
+    
+    transition: transform .3s;
+    width: 100%;
+    flex: 3;
+    background-color: aqua;
+    
+}
+  
 
-  a#tower {
+#portfolio {
+    width: 126px;
     display: flex;
-    background-image: url(https://www.google.com/);
+
+}
+
+
+
+#tower {
+    width: 126px;
+  
+  }
+
+
+  .portfolio {
+    display: flex ;
   }
