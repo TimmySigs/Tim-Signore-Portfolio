@@ -4,9 +4,6 @@
     box-sizing: border-box;
 } 
 
-module.exports = {
-    pathPreFix: '/Tim-Signore-Portfolio'
-}
 :root {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 300;
@@ -98,7 +95,7 @@ a:link {
     color: #053F5C;
 }
 
-.nav-list {
+nav-list {
     padding: 5px;
     color: white;
     top: 0;
@@ -110,7 +107,7 @@ a:link {
     position: relative;
 }
 
-.my-services {
+my-services {
     text-align: center;
 }
 
@@ -123,7 +120,7 @@ a:link {
     
 }
 
-.about-me {
+about-me {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -157,4 +154,9 @@ a:social-links {
     display: inline-block;
     color: white;
     align-items: center;
+  }
+
+social-links {
+    display: inline-block;
+    flex: auto;
   }
